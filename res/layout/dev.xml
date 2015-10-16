@@ -1,0 +1,24 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="left|center">
+
+	<TextView
+		android:textSize="20sp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/dev"
+		android:paddingLeft="20dp" />
+
+	<TextView
+		android:textSize="20sp"
+		android:id="@+id/text"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:paddingLeft="20dp"
+		android:text="@string/email"
+		android:autoLink="all" />
+
+</LinearLayout>
